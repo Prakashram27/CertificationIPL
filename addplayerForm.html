@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="header">
+        <img id="logo" src="https://wallpaperaccess.com/full/2302743.jpg" alt="">
+        <div id="top-right">
+            <span style="display:inline-block; color:#DBEFF0;padding-bottom: 20px;font-size: 12.5px;">Official
+                Partners</span>
+            <img class="sponser"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvNGpQUTYUV-CDZtsmFDg4iZ7EJ_kTQ-yQIw&usqp=CAU"
+                alt="Tata logo">
+            <img class="sponser"
+                src="https://th.bing.com/th/id/OIP.ZrP4FqNHujoWryIL6xCptQHaEL?w=315&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                alt="">
+            <img class="sponser"
+                src="https://th.bing.com/th/id/OIP.0snj6K7LmaOP0Iy00nUtrQAAAA?w=191&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                alt="">
+        </div>
+    </div>
+    <div id="addPlayerDiv">
+        <h2 style="text-align: center;padding-top:5px;color: lightgrey;">Add Player</h2>
+        <form action="">
+        <p class="TeamPara" >Player Name</p>
+        <input type="text"  class="paraInput" minlength='3' id="nameLable" placeholder="Enter Player Name...">
+        <p class="TeamPara">Player Icon Url</p>
+        <input type="text" class="paraInput" id="teamName" placeholder="Enter Image Url...">
+        <p class="TeamPara">Team Name</p>
+        <input type="text" class="paraInput" id="wonCount" placeholder="Enter Team Name...">
+        <br><br><br>
+        <input type="button" onclick="enterPlayer()" id="addingbtn" value="SUMBIT">
+    </form>
+    </div>
+</body>
+<script src="./form.js"></script>
+</html>

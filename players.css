@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+
+}
+
+html {
+    background-color: #DBEFF0;
+}
+
+.header {
+    margin: 0px;
+    background-color: #1F2F70;
+    height: 55px;
+    width: 100%;
+    border: 10px solid #1F2F70;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 100%;
+    width: 100px;
+}
+
+#search {
+    display: inline-block;
+    height: 20px;
+    width: 300px;
+}
+
+.sponser {
+    height: 50px;
+    width: 70px;
+    border: 1px solid #DBEFF0;
+    margin: 2px;
+}
+
+#top-center {
+    padding-top: 15px;
+}
+
+#top-right {
+    padding-right: 25px;
+}
+
+#searchbtn {
+    display: inline-block;
+    height: 26px;
+    width: 40px;
+    background-color: #cddeee;
+    border: 0px;
+    border-radius: 1px;
+    position: absolute;
+}
+
+#playerdetails{
+    background-color: #1F2F70;
+    margin-top: 30px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.playerdetailsimage{
+    margin-top: 15px;
+    margin-left: 100px;
+    height:80%;
+    width: 30%;
+    display: inline;
+}
+.playerTeamDetails{
+    width: 60%;
+    height:100%;
+    padding-top: 70px ;   
+}
+.details{
+    font-size: 20px;
+    color: #DBEFF0;
+}
+
+

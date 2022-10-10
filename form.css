@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    
+}
+html{
+    background-color: #DBEFF0;
+}
+.header{
+    margin: 0px;
+    background-color: #1F2F70;
+    height: 55px;
+    width: 100%;
+    border: 10px solid #1F2F70;
+    display: flex;
+    justify-content: space-between;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+height : 100%;
+width : 100px;
+}
+.sponser{
+    height: 50px;
+    width: 70px;
+    border: 1px solid #DBEFF0;
+    margin: 2px;
+}
+#top-right{
+    padding-right: 25px;
+    display: inline-block;
+}
+
+#addingDiv,
+#addPlayerDiv{
+    background-color: #1F2F70;
+    height: 400px;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+
+}
+.TeamPara{
+    text-align: center;
+    margin-top: 35px;
+    color: #DBEFF0;
+    font-size: 18px;
+}
+.paraInput{
+    height: 20px;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+#addingbtn{
+   margin-left: 370px;
+}
+.active{
+    display: none;
+}
